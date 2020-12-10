@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Popcorn</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.svg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/plyr.css" rel="stylesheet"> 
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo mr-auto">
+     
+              <a href="index.html">
+                  <img src="assets/img/logo.svg" alt="">
+                  Popcorn
+              </a>
+        
+      </div>
+
+   
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="banner-wr">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+          <div data-aos="zoom-out">
+            <h1>Educate. Validate. <br>Motivate</h1>
+            
+            <div class="text-center text-lg-left">
+              <a href="https://www.srclogix.com/" class="btn-get-started scrollto">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+
+              <video id="player" playsinline controls data-poster="assets/img/video-bnner.jpg">
+                    <source src="assets/video/popcorn-video.mp4" type="video/mp4" />
+              </video>
+
+              
+        </div>
+      </div>
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+
+    <!-- ======= Details Section ======= -->
+    <section id="details" class="details">
+      <div id="pop_corn_container"></div>
+      <div class="bg"></div>
+      <div class="container">
+      	<h1 class="c-headin-1">Challenge:</h1>
+        <div class="row content align-items-center c-con-box">
+          <div class="col-md-3" data-aos="fade-right">
+          	  <div class="rounded-circle">
+            	  <img src="assets/img/popcon-img1.jpg" class="img-fluid " alt="">
+              </div>		
+          </div>
+          <div class="col-md-9 " data-aos="fade-up">
+            <h3>Data entry is error prone:</h3>
+            <p class="font-italic">
+             Teams using SalesForce (SF) find it hard to “enter” data accurately while they actively “engage” with customers and prospects. Multi-tasking data entry while talking to customers adds to their cognitive load, erodes positive outcomes.
+            </p>
+            
+          </div>
+        </div>
+
+        <div class="row content align-items-center c-con-box">
+          <div class="col-md-3 order-1 order-md-2" data-aos="fade-left">
+          	<div class="rounded-circle">
+            	   <img src="assets/img/popcon-img2.jpg " class="img-fluid " alt="">
+              </div>
+          </div>
+          <div class="col-md-9  order-2 order-md-1  text-right" data-aos="fade-up">
+            <h3>Leaders struggle to manage teams:</h3>
+            <p class="font-italic">
+              Measuring quality and motivation levels for teams are difficult. Leaders struggle to understand ways to engage their teams who engage with customers.
+            </p>
+            
+          </div>
+        </div>
+
+        <div class="row content align-items-center c-con-box">
+          <div class="col-md-3" data-aos="fade-right">
+          	<div class="rounded-circle">
+            	<img src="assets/img/popcon-img3.jpg" class="img-fluid " alt="">
+        	</div>
+          </div>
+          <div class="col-md-9 " data-aos="fade-up">
+            <h3>Unhappy customers:</h3>
+            <p>Customers receive conflicting information from different team members of the same company. This is due to issues with data quality and consistency.</p>
+            
+          </div>
+        </div>
+
+        <div class="row content align-items-center c-con-box">
+          <div class="col-md-3 order-1 order-md-2" data-aos="fade-left">
+          		<div class="rounded-circle">
+            		<img src="assets/img/popcon-img4.jpg" class="img-fluid " alt="">
+            	</div>	
+          </div>
+          <div class="col-md-9  order-2 order-md-1 text-right" data-aos="fade-up">
+            <h3>Busy Admins:</h3>
+            <p class="font-italic">
+              SF Admins are the hardest working individuals. They are constantly bombarded with requests for changes. Most of those relate to data integrity, quality, training and engagement.
+            </p>
+            
+          </div>
+        </div>
+        <h1 class="c-headin-1 mt-5 c-soloution-heading">Solution: Enter Popcorn!</h1>
+        
+        <div class="row content align-items-center">
+          <div class="col-md-3 " data-aos="fade-left">
+            <ul class="c-list-icon row">
+            	<li class="col-6">
+            		<img src="assets/img/solution1.svg" alt="">
+            	</li>
+            	<li class="col-6">
+            		<img src="assets/img/solution2.svg" alt="">
+            	</li>
+            </ul>
+          </div>
+          <div class="col-md-9   text-left" data-aos="fade-up">
+            <h3>Enhance SF in meaningful and fun ways:</h3>
+            <p class="font-italic">
+             Provide consistent data quality. Reduce cognitive load and improve user engagement.
+            </p>
+          </div>
+        </div>
+        <div class="row content align-items-center">
+          
+          <div class="col-md-9   text-right" data-aos="fade-up">
+            <h3>Improve communication & training:</h3>
+            <p class="font-italic">
+             VEMP - Validate, Educate, Motivate & Promote good work. 0% code, 100% configurable. With confetti, badges, and points -- track, reward and notify good work through gamification.
+            </p>
+          </div>
+          <div class="col-md-3 " data-aos="fade-left">
+            <ul class="c-list-icon row">
+            	<li class="col-6">
+            		<img src="assets/img/solution3.svg" alt="">
+            	</li>
+            	<li class="col-6">
+            		<img src="assets/img/solution4.svg" alt="">
+            	</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row content align-items-center">
+	          <div class="col-md-3 " data-aos="fade-left">
+	            <ul class="c-list-icon row">
+	            	<li class="col-6">
+	            		<img src="assets/img/solution7.svg" alt="">
+	            	</li>
+	            	<li class="col-6">
+	            		<img src="assets/img/solution8.svg" alt="">
+	            	</li>
+	            </ul>
+	          </div>
+	          <div class="col-md-9   text-left" data-aos="fade-up">
+	            <h3>Increase customer loyalty and retention:</h3>
+	            <p class="font-italic">
+	             	Increase customer loyalty and retention:
+					Keep customers happy. Make sure all your sales and success reps have consistent info on rebates and discounts.
+	            </p>
+	          </div>
+        </div>
+
+        <div class="row content align-items-center">
+          
+          <div class="col-md-9   text-right" data-aos="fade-up">
+            <h3>Actionable Intelligence:</h3>
+            <p class="font-italic">
+             Track all campaigns so Salesforce admins and leads to get valuable insights and analytics. Gain effective insights on the effectiveness of various campaigns via metrics such as Pop rates, usage, and feedback insights. Enhance actionable intelligence for admins and leadership via analytics.
+            </p>
+          </div>
+          <div class="col-md-3 " data-aos="fade-left">
+            <ul class="c-list-icon row">
+            	<li class="col-6">
+            		<img src="assets/img/solution5.svg" alt="">
+            	</li>
+            	<li class="col-6">
+            		<img src="assets/img/solution6.svg" alt="">
+            	</li>
+            </ul>
+          </div>
+        </div>
+        <h2 class="c-headin-1 mt-5 c-soloution-heading">Pop Stack</h2>
+        <div class="text-center c-popstack-wr">
+        	<img class="img-responsive" src="assets/img/popstack.jpg" alt="">
+        </div>
+      </div>
+    </section><!-- End Details Section -->
+
+    
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+  <footer class="c-footer-wr">
+  <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+ </svg>	
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <div class="c-footer-about">
+        	<a href="index.html">
+                  <img src="assets/img/logo.svg" alt="">
+                  Popcorn
+              </a>
+          <p>We’re a small and elite technology consulting company working with some of the best companies to help with their information technology needs.</p>
+          <p class="cf-coppy-text">Copyright © popcorn.com</p>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-12">
+        <div class="c-footer-nav">
+          <h5>Learn More</h5>
+          <ul>
+            <li><a href="#"> How it works?</a> </li>
+            <li><a href="#"> Adventages</a> </li>
+            <li><a href="#"> Pricing</a> </li>
+            <li><a href="#"> Support</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-12">
+        <div class="c-footer-nav">
+          <h5>Learn More</h5>
+          <ul>
+            <li><a href="#"> How it works?</a> </li>
+            <li><a href="#"> Adventages</a> </li>
+            <li><a href="#"> Pricing</a> </li>
+            <li><a href="#"> Support</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="cf-info-w">
+          <h5>Contact Us</h5>
+          <p>Call or e-mail us, we're always happy to help.</p>
+          <ul class="d-flex cf-info-list">
+            <li> <a href="tel:+6221-2269 2089">+6221-2269 2089</a> </li>
+            <li> <a href="mailto:support@popcorn.com">support@popcorn.com</a> </li>
+          </ul>
+          <ul class="d-flex cf-info-social">
+            <li> <a href="#">
+              <svg  enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z"/>
+                <path d="m.396 7.977h4.976v16.023h-4.976z"/>
+                <path d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z"/>
+              </svg>
+              </a> </li>
+            <li><a href="#">
+              <svg  enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/>
+              </svg>
+              </a></li>
+            <li> <a href="#">
+              <svg enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512" xml:space="preserve" 
+                                  xmlns=" http://www.w3.org/2000/svg">
+                <path d="m512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56                      25.408-19.264-20.512-46.72-33.216-76.672-33.216-58.112 0-104.9 47.168-104.9 104.99 0 8.32 0.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.35-109.79-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-0.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.14-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-0.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.14 44.768-8.608 0-16.864-0.384-25.12-1.44 46.496 29.984 101.6 47.104 161.02 47.104 193.15 0 298.75-160 298.75-298.69 0-4.64-0.16-9.12-0.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"/>
+              </svg>
+              </a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+ <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+ </footer>
+	
+    <script  src="assets/js/plyr.js"></script>
+  <script  src="assets/js/main.js"></script>
+</body>
+
+</html>
